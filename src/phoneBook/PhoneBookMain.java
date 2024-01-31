@@ -14,7 +14,9 @@ public class PhoneBookMain {
         System.out.println("""
                 1-> add phone number
                 2 -> search phone number
-                3 -> exit
+                3 -> delete contact
+                4 -> add to contacts 
+                4 -> exit
                 """);
         int menu = Integer.parseInt(scanner.nextLine());
         switch (menu){
