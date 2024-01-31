@@ -23,8 +23,12 @@ public class PhoneBookMain {
             case 1:
                 addPhoneNumber();
             case 2:
-                searchPhoneNumber();
+            searchPhoneNumber();
             case 3:
+                delete contact();
+            case 4:
+                add to contacts() 
+            case 5:
                 exits();
                 break;
             default:
