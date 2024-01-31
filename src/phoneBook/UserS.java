@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class User {
 
     ArrayList<Contact> myContacts = new ArrayList<>();
+
+
     int totalPhoneNumberCount;
 
 
@@ -19,8 +21,8 @@ public class User {
     public ArrayList<Contact> searchPhoneNumber(String firstName ){
         Contact contact1 = new Contact(firstName);
 
-        for (phoneBook.Contact contact:myContacts){
-            if (myContacts.equals(contact)) {System.out.println(contact1);
+        for (Contact contact:myContacts){
+            if (myContacts.equals(contact)) {System.out.println(contact);
             }
         }
         return null;

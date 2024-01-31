@@ -3,7 +3,7 @@ package phoneBook;
 import java.util.Scanner;
 
 public class PhoneBookMain {
-    public static Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         mainMenu();
